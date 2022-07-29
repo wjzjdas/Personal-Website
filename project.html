@@ -5,10 +5,54 @@
         <style>
             .balls_happy{
                 width: 300px;
+                object-fit: cover;
+                object-position: top;
+                border-style: solid;
+                border-color: black'
             }
+
+            .search_bar{
+                font-size: 20px;
+                margin: 20px;
+                display:block;
+            }
+
+            .welcome_message{
+                width:300px;
+                margin: 20px, 20px;
+            }
+
+            .selection_message{
+                display: block;
+                margin: 10px;
+            }
+
+            p{
+                font-size:20px;
+                margin: 10px, 20px;
+            }
+
         </style>
     </head>
     <body>
+
+        <input class= "search_bar" type="text" placeholder="Search">
         <img class = "balls_happy" src="Images/balls_happy.png">
+
+        <p class="welcome_message">
+            Welcome to my website
+        </p>
+
+        <p class="selection_message">
+            Which section would you like to visit today?
+        </p>
+
+        <button class="resume_button">
+            My resume
+        </button>
+
+        <button class="awards_button">
+            My awards
+        </button>
     </body>
 </html>
