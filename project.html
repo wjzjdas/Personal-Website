@@ -3,54 +3,109 @@
     <head>
         <title>My website</title>
         <style>
+
+            .search_bar{
+                font-size: 20px;
+                margin: 20px;
+                display:block;
+            }
+
             .balls_happy{
-                width: 300px;
+                width: 100%;
                 object-fit: cover;
                 object-position: top;
                 border-style: solid;
                 border-color: black'
             }
 
-            .search_bar{
-                font-size: 20px;
-                margin: 20px;
-            }
-
-            .welcome_message{
-                width:300px;
-                margin:auto;
-            }
-
-            .selection_message{
-                display: inline-block;
-                vertical-align: middle;
+            .balls_confused{
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+                border-radius: 20px;
             }
 
             p{
                 font-size:20px;
+
+            }
+
+            .first_block{
+                width: 300px;
+                display: inline-block;
+                vertical-align:top;
+                margin: 20px;
+            }
+
+            .channel_block{
+                display: inline-block;
+                width:100px;
+                vertical-align: top;
+            }
+
+            .info_block{
+                display: inline-block;
+                width:180px;
+            }
+
+            .welcome_message{
+                font-size: 30px;
+                margin-top:10px;
+                margin-bottom:0px;
+            }
+
+            .info_message{
+                margin:5px;
             }
             
         </style>
     </head>
     <body>
 
-        <img class = "balls_happy" src="Images/balls_happy.png">
         <input class= "search_bar" type="text" placeholder="Search">
+        
+        <!-- This is the first layout -->
+        <div class="first_block">
 
-        <p class="welcome_message">
-            Welcome to my website
-        </p>
+            <div>
+                <img class = "balls_happy" src="Images/balls_happy.png">
+            </div>
 
-        <p class="selection_message">
-            Which section would you like to visit today?
-        </p>
+            <div>
 
-        <button class="resume_button">
-            My resume
-        </button>
+                <div class = "channel_block">
+                    <img class = "balls_confused" src = "Images/balls_confused.png">
+                </div>
 
-        <button class="awards_button">
-            My awards
-        </button>
+                <div class = "info_block">
+
+                    <p class="welcome_message">
+                        Welcome to my website
+                   </p>
+       
+                   <p class="info_message">
+                       Which section would you like to visit today?
+                   </p>
+    
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="first_block">
+
+            <img class = "balls_happy" src="Images/balls_happy.png">
+        
+            <p class="welcome_message">
+                 Welcome
+            </p>
+
+            <p class="info_message">
+                Which section would you like to visit today?
+            </p>
+
+        </div>
+
     </body>
 </html>
