@@ -1,0 +1,54 @@
+
+.search_bar{
+    font-size: 20px;
+    margin: 20px;
+    display:block;
+}
+
+.balls_happy{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-style: solid;
+    border-color: black'
+}
+
+.balls_confused{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+p{
+    font-size:20px;
+
+}
+
+.first_block{
+    width: 300px;
+    display: inline-block;
+    vertical-align:top;
+    margin: 20px;
+}
+
+.channel_block{
+    display: inline-block;
+    width:100px;
+    vertical-align: top;
+}
+
+.info_block{
+    display: inline-block;
+    width:180px;
+}
+
+.welcome_message{
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+.info_message{
+    margin:5px;
+}
