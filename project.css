@@ -1,8 +1,13 @@
 
 .search_bar{
     font-size: 20px;
-    margin: 20px;
-    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .balls_happy{
@@ -27,9 +32,8 @@ p{
 
 .first_block{
     width: 300px;
-    display: inline-block;
-    vertical-align:top;
-    margin: 20px;
+    display: block;
+    margin: auto;
 }
 
 .channel_block{
