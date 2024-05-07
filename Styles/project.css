@@ -41,7 +41,7 @@ a {
 header {
   height: 100vh;
   color: var(--color-w1);
-  overflow: hidden;
+  overflow: visible;
 }
 
 section {
@@ -53,7 +53,26 @@ section {
   padding: 3rem 18rem;
 }
 
-/* Main class */
+/* 
+    Main class
+ */
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header_content {
+  height: 100%;
+  text-align: right;
+  flex: 0 0 50%;
+}
+
+#header_image {
+  width: 50%;
+  flex: 1;
+}
+
 .section {
   transform: traslateY(-100%) scale(0);
   transition: all 0.4s ease-in-out;
@@ -61,7 +80,7 @@ section {
 }
 
 .sec1 {
-  display: none;
+  display: visible;
   transform: translateY(0) scale(1);
 }
 
@@ -83,4 +102,8 @@ section {
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
+}
+
+.menu {
+  display: none;
 }/*# sourceMappingURL=project.css.map */
